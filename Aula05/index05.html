@@ -17,6 +17,17 @@
     <h1>Eu tenho o DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-    <div>Clique aqui</div>
+    <div id="msg">Clique aqui</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        // var d = window.document.getElementById('msg')
+        // d.style.background = 'green'
+        // //d.innerText = 'Estou aguardando...'
+        // window.document.getElementById('msg').innerText = 'Olá'
+        
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'blue'
+    </script>
 </body>
 </html>
