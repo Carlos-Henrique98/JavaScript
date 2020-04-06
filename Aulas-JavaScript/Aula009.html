@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF com multiplos retorno</title>
+</head>
+<body>
+    <script>
+
+        var nota = 22;
+        var res;
+
+        if(nota >= 96)
+        {
+            res="Aprovado com louvor";
+        }
+        else if(nota >= 60)
+        {
+            res = "Aprovado";
+        }
+        else if((nota >= 40 ) &&(nota< 60))
+        {
+            res = "Recuperacao";
+        }
+        else if(nota >= 20){
+            res="Reprovado";
+        }else{
+            res="Reprovado com louvo";
+        }
+
+        document.write(res);
+
+    </script>
+</body>
+</html>
