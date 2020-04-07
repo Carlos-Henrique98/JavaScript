@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array/Vetor</title>
+</head>
+<body>
+    <script>
+        var mochila2 = [],mochila = [], mochila1= [],pos;
+        //var num = [5,8,4,9,7,6,3,0,2,1];
+        var numeros;
+        /*
+        //ordenar elementos - crescente
+        num.sort();
+
+        //ordenar elementos - decrescente
+        num.reverse();
+
+        numeros = num.join();
+        document.write(numeros+"<br>")
+
+        document.write(num[0]+"<br>");
+        document.write(num[1]+"<br>");
+        document.write(num[2]+"<br>");
+        document.write(num[3]+"<br>");
+        document.write(num[4]+"<br>");
+        document.write(num[5]+"<br>");
+        document.write(num[6]+"<br>");
+        document.write(num[7]+"<br>");
+        document.write(num[8]+"<br>");
+        document.write(num[9]+"<br>");
+       */
+        
+        mochila.push("Faca");
+        mochila.push("Corda");
+        mochila.push("Pederneira");
+        mochila.push("Chave");
+        mochila.push("Lanterna");
+        mochila.push("Pedra");
+
+        mochila1.push("Arame");
+        mochila1.push("Bomba");
+        mochila1.push("Metralhadora");
+        mochila1.push("Bazuca");
+        mochila1.push("Marreta");
+        mochila1.push("Escopeta");
+
+        mochila2 = mochila.concat(mochila1);
+
+        pos = mochila.indexOf("Pedra");
+
+        document.write(mochila2[0]+"<br>");
+        document.write(mochila2[1]+"<br>");
+        document.write(mochila2[2]+"<br>");
+        document.write(mochila2[3]+"<br>");
+        document.write(mochila2[4]+"<br>");
+        document.write(mochila2[5]+"<br>");
+        document.write(mochila2[6]+"<br>");
+        document.write(mochila2[7]+"<br>");
+        document.write(mochila2[8]+"<br>");
+        document.write(mochila2[9]+"<br>");
+        document.write(mochila2[10]+"<br>");
+        document.write(mochila2[11]+"<br>");
+
+        document.write("Tamanho da mochila: "+mochila.length+"<br>");
+        document.write("Tamanho da mochila 2: "+mochila2.length+"<br>");
+        document.write("Tamanho da mochila 1: "+mochila1.length+"<br>");
+/*
+        if(pos < 0)
+        {
+            document.write("item não está no mochila<br>");
+        }
+        else
+        {
+            document.write("item está na mochila <br> Posição: "+ pos);
+        }
+    */    
+    </script>
+</body>
+</html>
