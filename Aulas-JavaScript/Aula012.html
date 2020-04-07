@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+</head>
+<body>
+    <script>
+
+        var num,msg;
+
+        num = 30;
+        switch(num)
+        {
+            case 1:
+                msg="Primeiro Lugar <br> Medalha de Ouro";
+                break;
+            case 2: 
+                msg="Segundo Lugar <br> Medalha de Prata";
+                break;
+            case 3:
+                msg="Terceiro Lugar <br> Medalha de Bronze";
+                break;
+            default:
+                msg="Não foi ao pódio<br> Não obteve medalha";
+
+        }
+
+        switch(num)
+        {
+            case 1:
+               
+            case 2: 
+           
+            case 3:
+                msg+="<br>Subiu ao podio";
+                break;
+            default:
+                msg+="<br> Não obteve colocação";
+
+        }
+
+
+        document.write(msg);
+    </script>
+</body>
+</html>
