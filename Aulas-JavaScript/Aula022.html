@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TryCatchFinally</title>
+</head>
+<body>
+    <script>
+
+        var num;
+
+        try{
+            num = prompt("Digite um valor: ");
+            if(num > 10){
+                throw new Error("Valor Invalido, o valor deve ser menor ou igual a 10<br>");
+            }
+            
+        }
+        catch(e)
+        {
+            console.log("Erro: "+e.message);
+            num=10;
+            //console.log("Mensagem de erro: "+e.message);
+        }
+        finally{
+            document.write("Valor: "+num);
+        }
+
+    </script>
+</body>
+</html>
