@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByTagName</title>
+</head>
+<body>
+
+    <h2>CFB Cursos</h2>
+    <h2>Curso de JavaScript</h2>
+    <h2>Aula 25</h2>
+
+    <hr/>
+
+    <script>
+
+        var tagsP = document.getElementsByTagName("*");
+
+        tagsP[8].innerHTML = "NOVO TEXTO";
+        tagsP[8].style.color="#f00";
+        
+    </script>
+</body>
+</html>
