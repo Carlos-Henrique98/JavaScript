@@ -9,5 +9,17 @@ const imprimirResultado = function(nota){
     else if(nota.entre(7,8.99)){
         console.log('Aprovado')
     }
+    else if(nota.entre(4,6.99)){
+        console.log('Recuperacao')
+    }
+    else if(nota.entre(0, 3.99)){
+        console.log('Reprovado')
+    }
+    else{
+        console.log('Nota invalida')
+    }
 }
+
+imprimirResultado(11)
+
 
