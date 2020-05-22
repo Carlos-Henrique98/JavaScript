@@ -13,7 +13,7 @@ let pessoa = [{
 }];
 
 for(let alturaPessoa of pessoa){
-    console.log(`Minha altura é ${alturaPessoa.altura}m.`)
+    console.log(`Minha altura é ${alturaPessoa.altura}m. `)
 }
 
 //Minha altura é 1.82m.
