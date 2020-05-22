@@ -14,14 +14,24 @@ let pessoa = [{
     idade: 19,
     altura: 1.82,
     peso: 89,
-    andando: false,
-    caminhouQuantosMetros: 0
+    caminhouQuantosMetros: 0,
+    andando: false
 }];
 
-pessoa.andar = function(caminhouQuantosMetros){
-    pessoa.caminhouQuantosMetros = pessoa.caminhouQuantosMetros + caminhouQuantosMetros
+pessoa.caminhouQuantosMetros =0,
+
+pessoa.andar = function(QuantosMetros){
+    pessoa.caminhouQuantosMetros = pessoa.caminhouQuantosMetros + QuantosMetros
 }
 
 pessoa.andar(2)
 
 console.log(pessoa.caminhouQuantosMetros)
+
+function Andar(){
+    if(pessoa.caminhouQuantosMetros > 0){
+        return true
+    }
+}
+
+console.log(Andar())
