@@ -14,9 +14,9 @@ let pessoa = [{
 
 function nomeCompleto(){
     for(let nome of pessoa){
-        console.log(`Olá! Meu nome é ${nome.nome} ${nome.sobrenome}`)
+        console.log(`Olá! Meu nome é ${nome.nome} ${nome.sobrenome}!`)
     }
 }
 
 nomeCompleto()
-    
+//Olá, Meu nome é Astholpo Pereira!
