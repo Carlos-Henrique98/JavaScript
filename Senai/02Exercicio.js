@@ -14,14 +14,20 @@
 }];
 
 
-pessoa.fazerAniversario = function(idade){
-    pessoa.idade = pessoa.idade + idade
+// pessoa.fazerAniversario = function(idade){
+//     pessoa.idade = pessoa.idade + idade
+// }
+
+//pessoa.fazerAniversario(1)
+//console.log(pessoa.idade)
+
+function fazerAniversario(idade){
+    for(let aniversario of pessoa){
+        return aniversario.idade += idade
+    }
 }
 
-pessoa.fazerAniversario(1)
-
-console.log(pessoa.idade)
-
+console.log(fazerAniversario(1))
 
 
 
