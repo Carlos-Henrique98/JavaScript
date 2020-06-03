@@ -12,17 +12,22 @@ let pessoa = [{
 }];
 
 
-function PararDeAndar(andando){
-    for(let andarP of pessoa){
-       let resultado = andarP.caminhouQuantosMetros + andando 
-       if(resultado > 0){
-           console.log(`${andarP.nome} parou de andar!`)
-           break;
-       }
-       else{
-           console.log(`${andarP.nome} está parado!`)
-       }
-    }
-}
+// function PararDeAndar(andando){
+//     for(let andarP of pessoa){
+//        let resultado = andarP.caminhouQuantosMetros + andando 
+//        if(resultado > 0){
+//            console.log(`${andarP.nome} parou de andar!`)
+//            break;
+//        }
+//        else{
+//            console.log(`${andarP.nome} está parado!`)
+//        }
+//     }
+// }
 
-PararDeAndar(3)
+// PararDeAndar(3)
+
+
+
+
+   

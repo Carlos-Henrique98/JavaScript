@@ -289,7 +289,9 @@ E agora: a pessoa ainda está andando? (Use uma instrução para responder e
 comentários inline ao lado da instrução para mostrar a resposta retornada)
 */
 
-
+pessoa.parar = function(){
+    console.log(this.andando = true)
+}
 
 /*
 Quantos metros a pessoa andou? (Use uma instrução para responder e comentários
